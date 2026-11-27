@@ -12,3 +12,27 @@
   align-items: center;
   justify-content: center;
 }
+
+.hvadErSelfBack {
+    margin: 20px 0px;
+  background-color: #f3f6f9;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hvadErSelfBack h2{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.hvadErSelfBack p{
+  margin-top: 25px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+}
