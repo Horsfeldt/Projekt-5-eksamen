@@ -13,7 +13,6 @@
 .main-content div {
   display: flex;
   flex-direction: column;
-  height: auto;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -28,14 +27,17 @@
   border: none;
 }
 
-.forsideBoks {
-  gap: 8px;
-}
-
 .main-content img {
-  width: 60px;
+  width: 30px;
   height: auto;
 }
+
+.forsideBoks {
+  gap: 8px;
+  width: 100%;
+  height: auto;
+}
+
 
 .main-content h2 {
   margin-bottom: 15px;
@@ -48,7 +50,3 @@
   text-align: center;
 }
 
-.main-content .klinikpersonale-icon {
-  width: 80px;
-  height: auto;
-}
