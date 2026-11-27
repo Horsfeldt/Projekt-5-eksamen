@@ -3,7 +3,7 @@
   width: 100%;
   background-image:
     linear-gradient(rgba(253, 253, 253, 0.5), rgba(253, 253, 253, 0.5)),
-    url("../img/patientHero.png");
+    url("../img/klinikpersonaleHero.png");
   background-position: 100% center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,8 @@
 }
 
 .hvadErSelfBack {
-    margin: 20px 0px;
+  margin: 0;
+  padding: 40px 20px 48px;
   background-color: #f3f6f9;
   width: 100%;
   height: auto;
@@ -22,17 +23,20 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
-.hvadErSelfBack h2{
+.hvadErSelfBack h2 {
   width: 100%;
   height: auto;
   text-align: center;
+  margin: 0 0 24px;
 }
 
-.hvadErSelfBack p{
-  margin-top: 25px;
+.hvadErSelfBack p {
+  margin: 0;
   width: 90%;
   height: auto;
   box-sizing: border-box;
+  line-height: 1.5;
 }
