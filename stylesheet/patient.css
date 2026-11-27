@@ -1,0 +1,14 @@
+.forsideHero {
+  height: 500px;
+  width: 100%;
+  background-image:
+    linear-gradient(rgba(253, 253, 253, 0.5), rgba(253, 253, 253, 0.5)),
+    url("../img/patientHero.png");
+  background-position: 100% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

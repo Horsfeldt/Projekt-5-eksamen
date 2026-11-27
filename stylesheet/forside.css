@@ -1,0 +1,54 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: auto;
+  margin: 20px 0px 60px 0px;
+}
+
+.main-content div {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.main-content button {
+  width: 90%;
+  height: 225px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  border: none;
+}
+
+.forsideBoks {
+  gap: 8px;
+}
+
+.main-content img {
+  width: 60px;
+  height: auto;
+}
+
+.main-content h2 {
+  margin-bottom: 15px;
+}
+
+.main-content p {
+  width: 85%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.main-content .klinikpersonale-icon {
+  width: 80px;
+  height: auto;
+}
